@@ -1,0 +1,34 @@
+{
+  "source": "Open-Meteo Historical Weather API",
+  "documentation": "https://open-meteo.com/en/docs/historical-weather-api",
+  "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=54.6872&longitude=25.2797&start_date=2025-09-01&end_date=2026-09-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Crain%2Csnowfall%2Csnow_depth%2Cweather_code%2Ccloud_cover%2Cwind_speed_10m&timezone=Europe%2FVilnius&timeformat=unixtime&temperature_unit=celsius&wind_speed_unit=kmh&precipitation_unit=mm",
+  "requested_coordinates": {
+    "latitude": 54.6872,
+    "longitude": 25.2797
+  },
+  "returned_coordinates": {
+    "latitude": 54.727592,
+    "longitude": 25.256916,
+    "elevation": 111.0
+  },
+  "timezone": "Europe/Vilnius",
+  "period": {
+    "start": "2025-09-01",
+    "end": "2026-09-30"
+  },
+  "hourly_units": {
+    "time": "unixtime",
+    "temperature_2m": "°C",
+    "relative_humidity_2m": "%",
+    "precipitation": "mm",
+    "rain": "mm",
+    "snowfall": "cm",
+    "snow_depth": "m",
+    "weather_code": "wmo code",
+    "cloud_cover": "%",
+    "wind_speed_10m": "km/h"
+  },
+  "dst_method": "Requested Unix time, converted from UTC to Europe/Vilnius. Repeated autumn local hour: sums for precipitation/rain/snowfall, means for continuous variables, maximum weather code.",
+  "prepared_rows": 9479,
+  "repeated_local_hours_collapsed": 1
+}

@@ -1,0 +1,27 @@
+{
+  "split_timestamp": "2026-07-01 00:00:00",
+  "train_start": "2025-09-01 00:00:00",
+  "train_end": "2026-06-30 23:00:00",
+  "test_start": "2026-07-01 00:00:00",
+  "test_end": "2026-09-30 23:00:00",
+  "train_rows": 4936203,
+  "test_rows": 1775683,
+  "stable_measurement_points": 946,
+  "ridge_alpha": 10.0,
+  "categorical_features": [
+    "measurementpoint",
+    "time_slot",
+    "month",
+    "weather_code"
+  ],
+  "weather_numeric_features": [
+    "temperature_2m",
+    "relative_humidity_2m",
+    "precipitation",
+    "rain",
+    "snowfall",
+    "snow_depth",
+    "cloud_cover",
+    "wind_speed_10m"
+  ]
+}
